@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/personal_inform_banner"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/hall_ic_hd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hall_ic_hd" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/yj_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="昵称"
+            android:textColor="#a5a9ab" />
+
+        <TextView  
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nickname"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8888" />
+
+    <FrameLayout
+        android:id="@+id/retpwd_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="性别"
+            android:textColor="#a5a9ab" />
+
+       <TextView  
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sex"
+            />
+    </FrameLayout>
+    
+        <FrameLayout
+        android:id="@+id/yqm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="邀请码"
+            android:textColor="#a5a9ab" />
+
+       <TextView  
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recode"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8888" />
+
+    <Button
+        android:id="@+id/btn_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一元发起私信"
+        android:background="@drawable/button_blue_bg"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+         />
+
+</LinearLayout>
